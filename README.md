@@ -26,6 +26,7 @@ This research project uses machine learning to predict satellite manoeuvres base
 - **topex.R**: R Script for running the anomaly detection on TOPEX satellite.
 
 ## How to Run the Code
+Ensure you set the correct working directory as all file paths within the R Scripts are relative to this directory.
 
 ### Software
 
@@ -41,5 +42,4 @@ The following R packages are required. You can install them by running:
 ```R
 install.packages(c("caret", "readr", "tidyr", "dplyr", "lubridate", "janitor", "ggplot2", "xgboost", "lightgbm", "corrplot", "catboost", "forecast"))
 
-Ensure you set the correct working directory as all file paths within the R Scripts are relative to this directory.
 
